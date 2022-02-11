@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>AutoShop_Services</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mapster" Version="5.2.0" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AutoShop-Data\AutoShop-Data.csproj" />
+    <ProjectReference Include="..\AutoShop-Entity\AutoShop-Entity.csproj" />
+  </ItemGroup>
+
+</Project>
