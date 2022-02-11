@@ -34,7 +34,7 @@ namespace AutoShop_Entity
             return Task.FromResult(true);
         }
 
-        //public async Task<bool> GetFullInfoAsync()
+        //public async Task<bool> GetFullInfoAsync() 
         //{
 
         //}
